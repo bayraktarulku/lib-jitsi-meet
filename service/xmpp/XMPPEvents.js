@@ -8,7 +8,7 @@ const XMPPEvents = {
     // audio.
     AUDIO_MUTED_BY_FOCUS: 'xmpp.audio_muted_by_focus',
 
-    // mute-unmute-XX
+    // mute-unmute-XXX
     AUDIO_UNMUTED_BY_FOCUS: 'xmpp.audio_unmuted_by_focus',
 
     AUTHENTICATION_REQUIRED: 'xmpp.authentication_required',
