@@ -1498,6 +1498,16 @@ JitsiConference.prototype.muteParticipant = function(id) {
     this.room.muteParticipant(participant.getJid(), true);
 };
 
+// mute-unmute-XX
+JitsiConference.prototype.unMuteParticipant = function(id) {
+    const participant = this.getParticipantById(id);
+
+    if (!participant) {
+        return;
+    }
+    this.room.muteParticipant(participant.getJid(), false);
+};
+
 /* eslint-disable max-params */
 
 /**
